@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 16
+names: ['BnH BG-GHW6', 'BnH BG-GHW7', 'BnH FF-GHW6', 'BnH FF-GHW7', 'BnH PT-GHW6', 'BnH PT-GHW7', 'BnH SW-GHW6', 'BnH SW-GHW7', 'Derby-GHW7', 'JPFF-GHW5', 'JPFF-GHW7', 'JPSPCL-GHW2', 'JPSW-GHW5', 'LS FF-GHW7', 'Royals Gold-GHW5', 'Royals Next-GHW5']
+
+roboflow:
+  workspace: naym
+  project: planogram_ai_test
+  version: 11
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/naym/planogram_ai_test/dataset/11
